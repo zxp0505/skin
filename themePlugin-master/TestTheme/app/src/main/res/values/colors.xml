@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_app_bg">#3333ff</color>
+    <color name="color_title_bar_bg">#3333ff</color>
+    <color name="color_title_bar_text">#CCFFFF</color>
+
+    <color name="color_new_item_bg">#FF0000</color>
+    <color name="color_new_item_title">#FF0000</color>
+
+    <color name="color_new_item_title_pressed">#ff98aa</color>
+
+    <color name="color_new_item_synopsis">#CCFFCC</color>
+    <color name="color_new_list_divider">#FFECb3</color>
+
+    <drawable name="color_news_item_normal">#677272</drawable>
+    <drawable name="color_news_item_pressed">#B6B6B6</drawable>
+
+    <color name="color_sel_skin_btn_text">#B6B6B6</color>
+    <!--测试background-->
+    <drawable name="item_iv_bg">@drawable/hot_ranking3_ic</drawable>
+    <!--测试src-->
+    <drawable name="item_iv_bg_e">@drawable/hot_ranking1_ic</drawable>
+</resources>

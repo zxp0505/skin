@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_app_bg">#FBC02D</color>
+    <color name="color_title_bar_bg">#FFEB3B</color>
+    <color name="color_title_bar_text">#CCFFFF</color>
+
+    <color name="color_new_item_bg">#ffffff</color>
+    <color name="color_new_item_title">#727000</color>
+
+    <color name="color_new_item_title_pressed">#ff98aa</color>
+
+    <color name="color_new_item_synopsis">#CCFFCC</color>
+    <color name="color_new_list_divider">#FFECb3</color>
+
+    <drawable name="color_news_item_normal">#677272</drawable>
+    <drawable name="color_news_item_pressed">#B6B6B6</drawable>
+
+    <color name="color_sel_skin_btn_text">#B6B6B6</color>
+</resources>

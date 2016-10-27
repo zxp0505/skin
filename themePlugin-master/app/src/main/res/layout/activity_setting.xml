@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    skin:enable="true"
+    android:background="@color/color_app_bg">
+
+    <include
+        android:id="@+id/title_bar_layout"
+        layout="@layout/include_detail_title_bar"/>
+    <Button
+        android:id="@+id/set_default_skin"
+        android:layout_width="match_parent"
+        android:layout_below="@id/title_bar_layout"
+        android:textColor="@color/color_sel_skin_btn_text"
+        android:background="@drawable/news_item_selector"
+        style="@style/setting_text"
+        android:text="官方默认"
+        skin:enable="true"
+        />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        skin:enable="true"
+        android:layout_below="@id/set_default_skin"
+        android:background="@color/color_new_list_divider"/>
+
+    <Button
+        android:id="@+id/set_night_skin"
+        style="@style/setting_text"
+        android:layout_width="match_parent"
+        android:layout_below="@id/divider"
+        android:textColor="@color/color_sel_skin_btn_text"
+        android:background="@drawable/news_item_selector"
+        skin:enable="true"
+        android:text="暗夜诱惑"
+        />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/set_night_skin"
+        skin:enable="true"
+        android:background="@color/color_new_list_divider"/>
+
+    <FrameLayout
+        android:id="@+id/update_online_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider2"
+        >
+
+        <Button
+            android:id="@+id/update_online"
+            android:layout_width="match_parent"
+            style="@style/setting_text"
+            skin:enable="true"
+            android:text="金色狂舞"
+            android:textColor="@color/color_sel_skin_btn_text"
+            android:background="@drawable/news_item_selector"
+            />
+
+        <com.daimajia.numberprogressbar.NumberProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:visibility="gone"
+            android:layout_gravity="bottom"
+            />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/update_online_layout"
+        skin:enable="true"
+        android:background="@color/color_new_list_divider"/>
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击进入webview"
+        android:layout_below="@id/divider3"/>
+</RelativeLayout>

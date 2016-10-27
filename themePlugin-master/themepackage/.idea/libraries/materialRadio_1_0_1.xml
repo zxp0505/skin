@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="materialRadio-1.0.1">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../app/build/intermediates/exploded-aar/net.soulwolf.widget/materialRadio/1.0.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../app/build/intermediates/exploded-aar/net.soulwolf.widget/materialRadio/1.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../app/build/intermediates/exploded-aar/net.soulwolf.widget/materialRadio/1.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.soulwolf.widget/materialRadio/1.0.1/78d9029f0b880bf2272158b40b5782faade98260/materialRadio-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
