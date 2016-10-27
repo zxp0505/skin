@@ -10,6 +10,8 @@
 
 [换肤总结2](http://www.jianshu.com/p/3d59ee0ad433)
 
+[Bilibili/MagicaSakura](https://github.com/Bilibili/MagicaSakura)
+
 [最终方案按照这个实现的](http://www.jianshu.com/p/8c4b2171fa8c) android-skin-load 动态加载skin包 
 ## 2.Android-Skin-Loader ##
 
